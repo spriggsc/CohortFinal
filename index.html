@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<script language="JavaScript">
+    function submitForm(){
+        if(document.myForm.myText.value == ""){
+            alert("");
+        }else{
+            document.myForm.mySubmit.click();
+        }
+    }
+</script>
+<ul>
+
+</ul>
+
+<form name="newMovieForm" id="newMovieForm">
+    <input type="text" name="movieTitle" id="movieTitle" />
+    <input type="submit" value="Add Movie" />
+</form>
+
+
+<form name="radioForm" id="radioForm">
+
+    <div id="main">
+        <input type="radio" name="genre" value="comedy" /> comedy<br/>
+        <input type="radio" name="genre" value="drama" /> drama<br/>
+        <input type="radio" name="genre" value="horror" /> kids
+    </div>
+    <input type="submit" value="Add Movie" />
+</form>
+
+
+
+</body>
+</html>
